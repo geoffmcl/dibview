@@ -7,15 +7,13 @@ cmake_minimum_required( VERSION 3.6 )
 
 project( DibView )
 
-# The version number.
-set( dv32_MAJOR 3 )
-set( dv32_MINOR 0 )
-set( dv32_POINT 0 )
-
+# The version number. See Dvvers.h
 
 # Allow developer to select is Dynamic or static library built
 set( LIB_TYPE STATIC )  # set default static
 option( BUILD_SHARED_LIB "Set ON to build shared Library (DLL)" OFF )
+
+# these ALL presently FAIL!!!
 option( ADD_SHOWDIB_EXE  "Set ON to build the SHOWDIB EXE"  OFF )
 option( ADD_SHOWDIB2_EXE "Set ON to build the SHOWDIB2 EXE" OFF )
 option( ADD_WJPG32_2_DLL "Set ON to build the ADD_WJPG32_2 DLL" OFF )
@@ -268,6 +266,7 @@ set(${name}_HDRS
     ${dir}/icc.h
     ${dir}/wmDiag99.h
     ${dir}/DvTrans.h
+    tif6/tiff.h
     )
 add_executable( ${name}  WIN32 ${${name}_SRCS} ${${name}_HDRS} )
 if (add_LIBS)
