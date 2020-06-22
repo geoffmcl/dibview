@@ -1,0 +1,11 @@
+:Base Dv32.hlp
+1 Menus
+2 File menu=menu_file
+2 Edit menu=menu_edit
+2 Palette menu=menu_palette
+2 Options menu=menu_options
+2 Capture menu=menu_capture
+2 Window menu=menu_window
+2 Help menu=menu_help
+1 <<application-specific topics>>
+2 <<topic jumps>>=main_index

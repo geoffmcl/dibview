@@ -1,0 +1,432 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+#include "showdib\dlgopen.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPENBMP DIALOGEX 0, 0, 283, 106
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Open DIB File"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Try Open",IDOK,226,83,50,16,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&Forget It",IDCANCEL,156,85,50,14
+    COMBOBOX        IDC_COMBO1,7,18,269,49,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_INFO,7,71,269,10
+    PUSHBUTTON      "&Browse ...",IDC_BROWSE,226,34,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_OPENBMP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SHOWDIB2            ICON    DISCARDABLE     "ShowDIB2.ICO"
+IDI_SMALL               ICON    DISCARDABLE     "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_SHOWDIB2 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...",                    IDM_OPEN
+        MENUITEM "&Save...",                    IDM_SAVE
+        MENUITEM "&Print...",                   IDM_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Paste DIB",                  IDM_PASTEDIB
+        MENUITEM "&Paste DDB",                  IDM_PASTEDDB
+        MENUITEM "&Paste Palette",              IDM_PASTEPAL
+        MENUITEM "&Copy",                       IDM_COPY
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Update Colors",              IDM_UPDATECOL
+        MENUITEM "&Hide Changes",               IDM_NOUGLY
+        MENUITEM "&DIB to Screen",              IDM_DIBSCREEN
+        MENUITEM "&Memory DIBs",                IDM_MEMORYDIB
+        MENUITEM "&Transparent",                IDM_TRANSPARENT
+        MENUITEM "&Show at 100%",               IDM_SHOW100PC
+    END
+    POPUP "&Animate"
+    BEGIN
+        MENUITEM "Steal Colors",                IDM_STEALCOL
+        MENUITEM "Off",                         IDM_ANIMATE0
+        MENUITEM "5",                           IDM_ANIMATE5
+        MENUITEM "50",                          IDM_ANIMATE50
+        MENUITEM "100",                         IDM_ANIMATE100
+        MENUITEM "200",                         IDM_ANIMATE200
+        MENUITEM "LongTime",                    IDM_ANIMATE201
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "&About...",                   IDM_ABOUT
+    END
+END
+
+XIDC_SHOWDIB2 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Open ...",                    IDM_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+IDC_SHOWORG MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...",                    IDM_OPEN
+        MENUITEM "&Save...",                    IDM_SAVE
+        MENUITEM "&Print",                      IDM_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+        MENUITEM SEPARATOR
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Update Colors",              IDM_UPDATECOL
+        MENUITEM "&Hide Changes",               IDM_NOUGLY
+        MENUITEM "&DIB to Screen",              IDM_DIBSCREEN
+        MENUITEM "&Memory DIBs",                IDM_MEMORYDIB
+        MENUITEM "&Transparent",                IDM_TRANSPARENT
+        MENUITEM SEPARATOR
+        MENUITEM "&Paste DIB",                  IDM_PASTEDIB
+        MENUITEM "&Paste DDB",                  IDM_PASTEDDB
+        MENUITEM "&Paste Palette",              IDM_PASTEPAL
+        MENUITEM "&Copy",                       IDM_COPY
+    END
+    POPUP "&Animate"
+    BEGIN
+        MENUITEM "Steal Colors",                IDM_STEALCOL
+        MENUITEM "Off",                         IDM_ANIMATE0
+        MENUITEM "5",                           IDM_ANIMATE5
+        MENUITEM "50",                          IDM_ANIMATE50
+        MENUITEM "100",                         IDM_ANIMATE100
+        MENUITEM "200",                         IDM_ANIMATE200
+        MENUITEM "LongTime",                    IDM_ANIMATE201
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "&About...",                   IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_SHOWDIB2 ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "X",            IDM_EXIT,               VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  22, 17, 276, 76
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_SHOWDIB2,IDC_MYICON,14,9,20,20
+    LTEXT           "ShowDIB2 Version 1.0.2",IDC_STATIC,49,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2000",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "Close About",IDOK,222,6,48,11,WS_GROUP
+    LTEXT           "Compiled:",IDC_STATIC,5,36,38,8
+    LTEXT           "Runtime:",IDC_STATIC,5,48,38,8
+    LTEXT           "Current:",IDC_STATIC,5,60,38,8
+    LTEXT           "Date and Time",IDC_LABEL1,46,36,224,8
+    LTEXT           "Runtime Module",IDC_LABEL2,46,48,224,8
+    LTEXT           "Current Work Directory",IDC_LABEL3,46,60,224,8
+END
+
+PRTDLG DIALOG DISCARDABLE  40, 40, 120, 40
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Cancel Printing",IDC_STATIC,4,6,112,12
+    DEFPUSHBUTTON   "Cancel",2,44,22,32,14,WS_GROUP
+END
+
+PRINTPREVIEW DIALOG DISCARDABLE  0, 0, 100, 100
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Print Preview"
+FONT 8, "Helv"
+BEGIN
+    PUSHBUTTON      "&Previous",PSB_PrevPage,10,6,40,14
+    PUSHBUTTON      "&Next",PSB_NextPage,54,6,40,14
+    PUSHBUTTON      "&Close",PSB_Close,98,6,40,14
+    PUSHBUTTON      "",PSB_TopLeft,0,26,50,14,WS_DISABLED | NOT WS_TABSTOP
+END
+
+DLGOPENBOX DIALOG DISCARDABLE  30, 35, 247, 120
+STYLE DS_LOCALEDIT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "File Open"
+FONT 8, "Helv"
+BEGIN
+    EDITTEXT        DLGOPEN_EDIT,45,6,130,12,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "",DLGOPEN_PATH,5,105,183,9
+    LISTBOX         DLGOPEN_FILE_LISTBOX,5,24,60,78,LBS_SORT | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    LISTBOX         DLGOPEN_DIR_LISTBOX,70,32,60,69,LBS_SORT | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "Ok",IDOK,136,41,45,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,136,61,45,14,WS_GROUP
+    PUSHBUTTON      "Format >>",DLGOPEN_FOLDOUT,136,81,45,14
+    CONTROL         "1 bpp",61441,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,195,11,44,12
+    CONTROL         "4 bpp",61442,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,
+                    195,23,44,12
+    CONTROL         "8 bpp",61444,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,
+                    195,35,44,12
+    CONTROL         "24 bpp",61448,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,
+                    195,47,44,12
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,192,64,44,1
+    CONTROL         "RLE 4",61456,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,195,67,44,12
+    CONTROL         "RLE 8",61472,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,
+                    195,79,44,12
+    CONTROL         "RGB",61504,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,195,
+                    91,44,12
+    LTEXT           "Filename:",IDC_STATIC,5,7,40,10
+    LTEXT           "",DLGOPEN_SMALL,190,2,8,10,NOT WS_GROUP
+    LTEXT           "",DLGOPEN_BIG,236,2,11,10,NOT WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "#include ""showdib\\dlgopen.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,0,0,1
+ PRODUCTVERSION 4,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "IR\0"
+            VALUE "FileDescription", "ShowDIB2\0"
+            VALUE "FileVersion", "4, 0, 0, 1\0"
+            VALUE "InternalName", "ShowDIB2\0"
+            VALUE "LegalCopyright", "Copyright © 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ShowDIB2.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "IR ShowDIB2\0"
+            VALUE "ProductVersion", "4, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 270
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 68
+    END
+
+    "DLGOPENBOX", DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 114
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "ShowDIB2"
+    IDS_HELLO               "Hello World!"
+    IDC_SHOWDIB2            "SHOWDIB2"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MEMLOW              "<WM_CREATE> Not enough memory for palette."
+    IDS_NOMEM               "No Memory Available!"
+    IDS_OPENDIBPROMPT       "Select a DIB to display"
+    IDS_SAVEDIBPROMPT       "Select File to save DIB to"
+    IDS_CANTSAVEFILE        "Unable to save the specified file"
+    IDS_CANTOPENFILE        "Can't open file [%s]"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_BADDIBFILE          "[%s]\r\nis not a legitimate DIB or RGB File!"
+    IDS_CREATEPALFAIL       "CreatePalette() Failed"
+    IDS_CANTLOADRLE         "Could not load RLE!"
+    IDS_CANTCREATEBMP       "Could not create bitmap!"
+    IDS_CANTDRAWSCANS       "Could not draw DIB scans to device!"
+    IDS_CANTDRAWMAP         "Could not draw map to screen!"
+    IDS_SAVESTR             "&Save"
+    IDS_OPENSTR             "&Open"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

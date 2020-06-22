@@ -1,0 +1,323 @@
+# Microsoft Developer Studio Generated Dependency File, included by WJPEG32.MAK
+
+.\Dvtojpg.c : \
+	".\wbmpsup.h"\
+	".\wcommon.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	".\wversion.h"\
+	
+
+.\Wbsmooth.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wccolor.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wcdeflts.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wcexpand.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wchuff.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wcmaind.c : \
+	".\wbmpsup.h"\
+	".\wcommon.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	".\wversion.h"\
+	
+
+.\Wcmaster.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wcmcu.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wcommon.c : \
+	".\wbmpsup.h"\
+	".\wcommon.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wcpipe.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wcsample.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wdcolor.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wddeflts.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wdhuff.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wdmain.c : \
+	".\wbmpsup.h"\
+	".\wcommon.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	".\wversion.h"\
+	
+
+.\Wdmaster.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wdmcu.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wdpipe.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wdsample.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Werror.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wfwddct.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wgmain.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	".\wversion.h"\
+	
+
+.\Wmemmgr.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	".\wmemsys.h"\
+	
+
+.\Wmemsys.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	".\wmemsys.h"\
+	
+
+.\Wquant1.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wquant2.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wrdbmp.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wrdgif.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wrdjfif.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wrdppm.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wrdtarga.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wrevdct.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wutils.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wwrbmp.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wwrgif.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wwrjfif.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wwrppm.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	
+
+.\Wwrtarga.c : \
+	".\wbmpsup.h"\
+	".\wconfig.h"\
+	".\winclude.h"\
+	".\wjpegdat.h"\
+	".\wjpeglib.h"\
+	

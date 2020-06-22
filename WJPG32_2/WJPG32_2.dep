@@ -1,0 +1,651 @@
+# Microsoft Developer Studio Generated Dependency File, included by WJPG32_2.mak
+
+.\Jcapimin.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcapistd.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jccoefct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jccolor.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcdctmgr.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jchuff.c : \
+	".\Jchuff.h"\
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcinit.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcmainct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcmarker.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcmaster.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcomapi.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcparam.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcphuff.c : \
+	".\Jchuff.h"\
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcprepct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jcsample.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jctrans.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdapimin.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdapistd.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdcoefct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdcolor.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jddctmgr.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdhuff.c : \
+	".\Jconfig.h"\
+	".\Jdhuff.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdinput.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdmainct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdmarker.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdmaster.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdmerge.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdphuff.c : \
+	".\Jconfig.h"\
+	".\Jdhuff.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdpostct.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdsample.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jdtrans.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jerror.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Jversion.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jfdctflt.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jfdctfst.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jfdctint.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jidctflt.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jidctfst.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jidctint.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jidctred.c : \
+	".\Jconfig.h"\
+	".\Jdct.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jquant1.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jquant2.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Jutils.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\WBmp2Jpg.c : \
+	".\Cderror.h"\
+	".\Cdjpeg.h"\
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Jversion.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\WComCfg.c : \
+	".\Cderror.h"\
+	".\Cdjpeg.h"\
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Jversion.h"\
+	".\WComCfg.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\WDataDst.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Wdatasrc.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Wjpg2bmp.c : \
+	".\Cderror.h"\
+	".\Cdjpeg.h"\
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Jversion.h"\
+	".\Win32.h"\
+	".\WMemDiag.h"\
+	".\WWrBmp6.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\WMemMgr6.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmemsys.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Wmemnobs.c : \
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmemsys.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	".\WMemDiag.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\WRdBmp6.c : \
+	".\Cderror.h"\
+	".\Cdjpeg.h"\
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\WWrBmp6.c : \
+	".\Cderror.h"\
+	".\Cdjpeg.h"\
+	".\Jconfig.h"\
+	".\Jerror.h"\
+	".\Jinclude.h"\
+	".\Jmorecfg.h"\
+	".\Jpegint.h"\
+	".\Jpeglib.h"\
+	".\Jpgstru6.h"\
+	".\Win32.h"\
+	".\WWrBmp6.h"\
+	"c:\GTools32\Dv32\win32.h"\
+	
+
+.\Wjpg32_2.rc : \
+	".\wjpg32.ico"\
+	

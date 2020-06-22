@@ -1,0 +1,69 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 90AD-14A3
+
+ Directory of C:\GTools\Tools\dv32\WJPEG32
+
+04/07/2005  04:56 PM    <DIR>          .
+04/07/2005  04:56 PM    <DIR>          ..
+04/07/2005  04:56 PM    <DIR>          DEBUG
+03/09/2004  01:19 AM               620 DV32LIB.DEF
+03/09/2004  01:19 AM            12,616 DVTOJPG.C
+04/07/2005  04:56 PM    <DIR>          RELEASE
+03/09/2004  01:19 AM               411 RESOURCE.H
+03/09/2004  01:19 AM               174 SETEXIT.H
+03/09/2004  01:19 AM               216 Wbmpsup.h
+03/09/2004  01:19 AM             3,410 WBSMOOTH.C
+03/09/2004  01:19 AM            12,930 WCCOLOR.C
+03/09/2004  01:19 AM            17,019 WCDEFLTS.C
+03/09/2004  01:19 AM             2,036 WCEXPAND.C
+03/09/2004  01:19 AM            21,143 WCHUFF.C
+03/09/2004  01:19 AM            36,825 WCMAIND.C
+03/09/2004  01:19 AM             4,625 WCMASTER.C
+03/09/2004  01:19 AM             6,893 WCMCU.C
+03/09/2004  01:19 AM            27,944 WCOMMON.C
+03/09/2004  01:19 AM               721 Wcommon.h
+03/09/2004  01:19 AM            13,548 Wconfig.h
+03/09/2004  01:19 AM            28,727 WCPIPE.C
+03/09/2004  01:19 AM            17,265 WCSAMPLE.C
+03/09/2004  01:19 AM            10,644 WDCOLOR.C
+03/09/2004  01:19 AM            13,299 WDDEFLTS.C
+03/09/2004  01:19 AM            16,465 WDHUFF.C
+03/09/2004  01:19 AM            27,732 WDMAIN.C
+03/09/2004  01:19 AM             9,693 WDMASTER.C
+03/09/2004  01:19 AM             6,834 WDMCU.C
+03/09/2004  01:19 AM            20,561 WDPHUFF.C
+03/09/2004  01:19 AM            39,935 WDPIPE.C
+03/09/2004  01:19 AM            10,258 WDSAMPLE.C
+03/09/2004  01:19 AM             4,299 WERROR.C
+03/09/2004  01:19 AM            12,078 WFWDDCT.C
+03/09/2004  01:19 AM            39,141 WGMAIN.C
+03/09/2004  01:19 AM            10,469 Winclude.h
+03/09/2004  01:19 AM             8,432 wjdhuff.h
+03/09/2004  01:19 AM             6,060 WJPEG32.001
+03/09/2004  01:19 AM               689 Wjpeg32.def
+03/09/2004  01:19 AM             4,537 WJPEG32.DEP
+25/05/2005  08:17 PM             6,850 WJPEG32.DSP
+25/05/2005  08:17 PM            11,816 WJPEG32.MAK
+03/09/2004  01:19 AM             2,579 WJPEG32.RC
+09/10/2004  02:22 PM            45,760 Wjpegdat.h
+03/09/2004  01:19 AM            27,366 Wjpeglib.h
+03/09/2004  01:19 AM            55,630 WMEMMGR.C
+03/09/2004  01:19 AM            13,392 WMEMSYS.C
+03/09/2004  01:19 AM             6,265 Wmemsys.h
+03/09/2004  01:19 AM            24,161 WQUANT1.C
+03/09/2004  01:19 AM            46,762 WQUANT2.C
+09/10/2004  02:25 PM            28,643 WRDBMP.C
+03/09/2004  01:19 AM            98,423 WRDGIF.C
+03/09/2004  01:19 AM            29,451 WRDJFIF.C
+03/09/2004  01:19 AM            14,349 WRDPPM.C
+03/09/2004  01:19 AM            15,457 WRDTARGA.C
+03/09/2004  01:19 AM            14,491 WREVDCT.C
+03/09/2004  01:19 AM             3,927 WUTILS.C
+03/09/2004  01:19 AM             1,203 Wversion.h
+03/09/2004  01:19 AM            13,835 WWRBMP.C
+03/09/2004  01:19 AM            15,722 WWRGIF.C
+03/09/2004  01:19 AM            16,426 WWRJFIF.C
+03/09/2004  01:19 AM            10,927 WWRPPM.C
+03/09/2004  01:19 AM            10,858 WWRTARGA.C
+              58 File(s)        962,542 bytes
+               4 Dir(s)  38,795,935,744 bytes free

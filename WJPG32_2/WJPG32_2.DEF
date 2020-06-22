@@ -1,0 +1,17 @@
+
+DESCRIPTION 'WJPG32_2.DLL - Incorporating IJG 6a source - June, 1997'
+
+EXPORTS
+; Get SIZE first, then
+        WJPGSIZE6    = _WJPGSIZE6@12
+; Get Image (n) for some ...
+                WJPG2BMP6    = _WJPG2BMP6@16
+; Bmp to JPEG
+                WBMPTOJPG6   = _WBMPTOJPG6@16
+                WBMP2JPG6    = _WBMP2JPG6@16
+; Configuration
+                WGETCONFIG6  = _WGETCONFIG6@4
+                WSETCONFIG6  = _WSETCONFIG6@4
+; ONLY for memory diagnostics
+                WEXTMMGR     = _WEXTMMGR@8
+

@@ -1,0 +1,14 @@
+# Microsoft Developer Studio Generated Dependency File, included by ShowDIB2.mak
+
+.\ShowDIB2.cpp : \
+	".\StdAfx.h"\
+	
+
+.\ShowDIB2.rc : \
+	".\ShowDIB2.ico"\
+	".\small.ico"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

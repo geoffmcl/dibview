@@ -1,0 +1,38 @@
+// MAKEHELP.BAT generated Help Map file.  Used by DV32.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HIDM_IMAGEATT                           0x10FA1
+HIDM_BKCOLOR                            0x10FA2
+HIDM_DEFFONT                            0x10FA3
+HIDM_EXITNOSAVE                         0x10FA4
+HIDM_EXITWSAVE                          0x10FA5
+HIDM_OPTION4                            0x10FA6
+HIDM_PAL_NORMAL                         0x10FA7
+HIDM_PAL_INTENSITY                      0x10FA8
+HIDM_PAL_INVERT                         0x10FA9
+HIDM_DUPLICATE                          0x10FAA
+HIDM_EDITBMP                            0x10FAB
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MENU1                              0x20071
+HIDR_FRAMEMENU                          0x20077
+ 
+// Dialogs (IDD_*) 
+HIDD_DIALOG1                            0x20065
+HIDD_DIALOG2                            0x2006A
+HIDD_DIALOG3                            0x2006C
+HIDD_DIALOG4                            0x2006E
+HIDD_CHOOSEGIF2                         0x2006F
+HIDD_GETCOLORS                          0x20072
+HIDD_PROGRESS1                          0x20073
+HIDD_FINDLIB                            0x20074
+HIDD_MRFDIALOG                          0x20076
+HIDD_DVERROR                            0x20079
+HIDD_DIALOG5                            0x2007A
+HIDD_INFODLG                            0x2007D
+HIDD_COMBINED                           0x20401
+HIDD_MESSAGE                            0x20409
+ 
+// Frame Controls (IDW_*) 

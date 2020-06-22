@@ -1,0 +1,32 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+;;; BidView - Help project file for DibView - Geoff McLane
+
+[OPTIONS]
+HCW=0
+COMPRESS=12 Hall Zeck
+ERRORLOG=Dv32Hlp.err
+LCID=0x409 0x0 0x0 ;Anglais (Etats-Unis)
+REPORT=Yes
+FTS=3
+TITLE=Help file for the Dibview
+CNT=.\Dv32.cnt
+ICON=dvicon1.ico
+BMROOT=.
+ROOT=.
+HLP=Dv32.HLP
+
+[FILES]
+dv32.rtf
+dv32_2.rtf
+
+[ALIAS]
+HIDD_DIALOG5 =Duplicate
+
+[MAP]
+; Load current project win message numbers
+; #include <help.h>
+#include Dv32.hm
+
+[CONFIG]
+BrowseButtons()

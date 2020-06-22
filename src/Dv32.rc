@@ -1,0 +1,1292 @@
+// Microsoft Visual C++ generated resource script.
+//
+#pragma code_page(65001)
+
+#include "DvResS.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "DvVers.h"
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "dlgs.h"
+#include "dvres.h"
+#include "dvview.h"
+#include "dvopts.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...",                    IDM_OPEN
+        MENUITEM "Op&en All ...",               IDM_OPENAS
+        MENUITEM "&Save As...",                 IDM_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Prin&t Setup...",             IDM_PRTSETUP
+        MENUITEM "&Print...",                   IDM_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "&Save on Exit",               IDO_SAVEINI
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Copy",                       IDM_COPY
+        MENUITEM "&Paste",                      IDM_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Attributes...",              IDM_IMAGEATT
+    END
+    POPUP "&Palette"
+    BEGIN
+        MENUITEM "&DIB's",                      IDM_PALDIB
+        MENUITEM "&System's",                   IDM_PALSYS
+        MENUITEM "&Animate",                    IDM_PALANIMATE
+        MENUITEM "&Restore",                    IDM_PALRESTORE
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Display Options",            IDM_OPTIONS, GRAYED
+        MENUITEM "&JPEG Options",               IDM_OPTION2
+        MENUITEM "&General Options",            IDM_OPTION3
+    END
+    POPUP "&Capture"
+    BEGIN
+        MENUITEM "&Window",                     IDM_CAPTWINDOW
+        MENUITEM "&Client Area",                IDM_CAPTCLIENT
+        MENUITEM "&Desktop",                    IDM_CAPTFULLSCREEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide Window on Capture",     IDM_CAPTUREHIDE, CHECKED
+    END
+    POPUP "&Window", GRAYED
+    BEGIN
+        MENUITEM "&Tile All",                   IDM_WINDOWTILE
+        MENUITEM "&Cascade All",                IDM_WINDOWCASCADE
+        MENUITEM "R&estore All",                IDM_WINDOWRESTALL
+        MENUITEM "&Restore Active",             IDM_WINDOWRESTORE
+        MENUITEM "Close &All",                  IDM_WINDOWCLOSEALL
+        MENUITEM SEPARATOR
+        MENUITEM "Arrange &Icons",              IDM_WINDOWICONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      IDM_ABOUT
+        MENUITEM "&Help",                       IDM_HELP
+    END
+END
+
+PALMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Close",                      IDM_EXIT
+    END
+    POPUP "&Square Size"
+    BEGIN
+        MENUITEM "&Tiny",                       IDM_PAL_TINY
+        MENUITEM "&Small",                      IDM_PAL_SMALL
+        MENUITEM "&Medium",                     IDM_PAL_MEDIUM
+        MENUITEM "&Large",                      IDM_PAL_LARGE
+    END
+    POPUP "&Order"
+    BEGIN
+        MENUITEM "&Natural",                    IDM_PAL_NORMAL
+        MENUITEM "&Intensity",                  IDM_PAL_INTENSITY
+        MENUITEM "I&nvert",                     IDM_PAL_INVERT
+        MENUITEM "&Split",                      IDM_PAL_SPLIT
+        MENUITEM "&Histogram",                  IDM_PAL_HISTO
+    END
+END
+
+IDR_FRAMEMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",            IDM_OPEN
+        MENUITEM "Open &MRU ...",               IDM_OPENMRU
+        MENUITEM "Op&en All ...",               IDM_OPENAS
+        MENUITEM "&Save...\tCtrl+S",            IDM_SAVE
+        MENUITEM "Sa&ve as BMP...\tCtrl+B",     IDM_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "Print S&creen",               IDM_PRINTSCRN
+        MENUITEM "Prin&t Per Options",          IDM_PPOPTIONS
+        MENUITEM "Setup and &Print...\tCtrl+P", IDM_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "S&ave on Exit",               IDO_SAVEINI
+        MENUITEM SEPARATOR
+        MENUITEM "Exit &No Save",               IDM_EXITNOSAVE
+        MENUITEM "Exit &With Save",             IDM_EXITWSAVE
+        MENUITEM "E&xit\tAlt+X",                IDM_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Copy Clip Region\tCtrl+C",   IDM_COPY
+        MENUITEM "&Paste\tCtrl+V",              IDM_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Attributes ...",             IDM_IMAGEATT
+        MENUITEM SEPARATOR
+        MENUITEM "C&olor ...",                  IDM_BKCOLOR
+        MENUITEM "&Font ...",                   IDM_DEFFONT
+        MENUITEM SEPARATOR
+        MENUITEM "&Duplicate ...",              IDM_DUPLICATE
+        MENUITEM "&Edit ...",                   IDM_EDITBMP
+        MENUITEM "Copy and Pa&ste",             IDM_COPYSAVE
+        MENUITEM "&Restore Size",               IDM_RESTORE2
+        MENUITEM SEPARATOR
+        MENUITEM "Edit Clip List...",           IDM_CLIPLISTMAX
+        POPUP "Clip List"
+        BEGIN
+            MENUITEM "Clip1",                       IDM_CLIPLIST
+        END
+        MENUITEM "C&lear Clip",                 IDM_CLEARCLIP
+        MENUITEM "&Magnify",                    IDM_MAGNIFY
+        MENUITEM "Add Swish",                   IDM_ADDSWISH
+        MENUITEM "Render New",                  IDM_RENDERNEW
+        MENUITEM SEPARATOR
+        MENUITEM "Repaint",                     IDM_REPAINT
+    END
+    POPUP "&Palette"
+    BEGIN
+        MENUITEM "&DIB's",                      IDM_PALDIB
+        MENUITEM "&System's",                   IDM_PALSYS
+        MENUITEM "&Animate",                    IDM_PALANIMATE
+        MENUITEM "&Restore",                    IDM_PALRESTORE
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Display Options...",         IDM_OPTIONS
+        MENUITEM "&General Options...",         IDM_OPTION3
+        MENUITEM "&Edit MRU List...",           IDM_OPTION4
+        MENUITEM "Magnify &Options...",         IDM_OPTION6
+    END
+    POPUP "&Capture"
+    BEGIN
+        MENUITEM "&Window",                     IDM_CAPTWINDOW
+        MENUITEM "&Client Area",                IDM_CAPTCLIENT
+        MENUITEM "&Desktop",                    IDM_CAPTFULLSCREEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide Window on Capture",     IDM_CAPTUREHIDE, CHECKED
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Tile All",                   IDM_WINDOWTILE
+        MENUITEM "&Cascade All",                IDM_WINDOWCASCADE
+        MENUITEM "R&estore All",                IDM_WINDOWRESTALL
+        MENUITEM "&Restore Active",             IDM_WINDOWRESTORE
+        MENUITEM "Close &All",                  IDM_WINDOWCLOSEALL
+        MENUITEM SEPARATOR
+        MENUITEM "Arrange &Icons",              IDM_WINDOWICONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      IDM_ABOUT
+        MENUITEM "&Help",                       IDM_HELP
+    END
+END
+
+IDR_PALMENU MENU
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Print",                      IDM_PAL_PRINT
+        MENUITEM "&Qitter",                     IDM_EXIT
+    END
+    POPUP "&Edition"
+    BEGIN
+        MENUITEM "Co&pier\tCtrl+C",             IDM_PAL_COPY
+        MENUITEM "C&oller\tCtrl+V",             IDM_PAL_PASTE
+    END
+    POPUP "&Affichage"
+    BEGIN
+        POPUP "&Type"
+        BEGIN
+            MENUITEM "&Squares",                    IDM_PAL_SQUARES
+            POPUP "&Square Size"
+            BEGIN
+                MENUITEM "&Tiny",                       IDM_PAL_TINY
+                MENUITEM "&Small",                      IDM_PAL_SMALL
+                MENUITEM "&Medium",                     IDM_PAL_MEDIUM
+                MENUITEM "&Large",                      IDM_PAL_LARGE
+                MENUITEM SEPARATOR
+                MENUITEM "S&plit",                      IDM_PAL_SPLIT
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "&Histogram",                  IDM_PAL_HISTO
+        END
+        POPUP "Order"
+        BEGIN
+            MENUITEM "&Natural",                    IDM_PAL_NORMAL
+            MENUITEM "&Rainbow",                    IDM_PAL_RYBIV
+            MENUITEM "&Intensity",                  IDM_PAL_INTENSITY
+            MENUITEM "N&umeric",                    IDM_PAL_NUMERIC
+            MENUITEM "&Grayness",                   IDM_PAL_GRAY
+            MENUITEM "&Frequency",                  IDM_PAL_FREQ
+            MENUITEM SEPARATOR
+            MENUITEM "In&vert",                     IDM_PAL_INVERT
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAGNIFY DIALOGEX 0, 0, 204, 242
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Magnify Options"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Magnify Mode On",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,17,85,10
+    LTEXT           "Inner",IDC_STATIC,65,31,39,8
+    LTEXT           "Outer",IDC_STATIC,114,30,48,10
+    LTEXT           "Width (x)",IDC_STATIC,7,44,50,8
+    LTEXT           "Height (y)",IDC_STATIC,7,57,50,8
+    EDITTEXT        IDC_EDIT1,63,42,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,112,41,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,63,55,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,111,55,34,12,ES_AUTOHSCROLL
+    GROUPBOX        "RGB Colors",IDC_STATIC,14,71,175,59
+    LTEXT           "Trasparent",IDC_STATIC,18,82,54,9
+    LTEXT           "Outline",IDC_STATIC,17,94,47,9
+    EDITTEXT        IDC_EDIT4,79,81,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,99,81,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,119,81,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,79,94,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,99,94,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,120,94,20,12,ES_AUTOHSCROLL
+    CONTROL         "Add Outline",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,108,62,13
+    DEFPUSHBUTTON   "OK",IDOK,101,220,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,38,220,50,14
+    GROUPBOX        "Magnify Options",IDC_STATIC,7,7,190,128
+    GROUPBOX        "Swish Options",IDC_STATIC,7,140,190,74
+    LTEXT           "Pen Width",IDC_STATIC,19,178,67,11
+    EDITTEXT        IDC_EDIT10,102,177,29,13,ES_AUTOHSCROLL
+    LTEXT           "Pen Color (RGB)",IDC_STATIC,20,199,54,10
+    EDITTEXT        IDC_EDIT11,86,196,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,105,196,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,123,196,20,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Select",IDC_BUTTON1,143,81,36,13
+    PUSHBUTTON      "Select",IDC_BUTTON2,144,95,36,13
+    PUSHBUTTON      "Select",IDC_BUTTON3,145,196,36,13
+    GROUPBOX        "Type",IDC_STATIC,15,151,173,25
+    CONTROL         "Swish",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,28,161,34,10
+    CONTROL         "Oval",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,82,162,31,10
+    CONTROL         "Square",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,135,163,39,10
+END
+
+ABOUTDLG DIALOGEX 31, 51, 322, 241
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "ABOUT DIBVIEW"
+FONT 8, "Helv", 0, 0, 0x0
+BEGIN
+    ICON            IDI_ICON5,IDC_STATIC,10,4,20,20
+    CTEXT           "Compiled by Geoff R. McLane",IDC_STATIC,40,4,269,8,NOT WS_GROUP
+    CTEXT           "Paris, France, %s",IDD_DATE,43,13,266,8,NOT WS_GROUP
+    CTEXT           "DibView v %d.%d.%d.%d",IDD_VERSION,43,22,266,8,NOT WS_GROUP
+    GROUPBOX        "System Information",IDC_STATIC,5,36,304,84
+    LTEXT           "Microsoft Windows v %d.%d",IDD_WINVER,10,57,299,8,NOT WS_GROUP
+    CTEXT           "Copyright Microsoft Corp.",IDC_STATIC,10,46,299,8,NOT WS_GROUP
+    LTEXT           "Mode: %s",IDD_MODE,10,67,299,8,NOT WS_GROUP
+    LTEXT           "Memory: %ldKB Free",IDD_MEMORY,10,77,299,8,NOT WS_GROUP
+    LTEXT           "System Resources: %d%%",IDD_RESOURCE,10,87,299,8,NOT WS_GROUP
+    LTEXT           "GDI Resources: %d%%",IDD_GDIRESOURCE,10,97,299,8,NOT WS_GROUP
+    LTEXT           "User Resources: %d%%",IDD_USERRESOURCE,10,107,299,8,NOT WS_GROUP
+    DEFPUSHBUTTON   "Click Here to Close About",IDD_OK,19,222,276,14,WS_GROUP
+    LTEXT           "The Graphics Interchange Format(c) is the Copyright property of, and GIF(sm) is a Service Mark property of CompuServe Incorporated.",IDC_STATIC,5,160,304,21
+    LTEXT           "It must be mentioned that the JPG and GIF conversion are based on the Independent JPEG Group's  (IJG) JPEG public domain software, releases 4 (?), and 6a (61) of 7-Feb-1996.",IDC_STATIC,5,125,304,35
+    EDITTEXT        IDC_EDIT1,6,183,303,38,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+FILEOPEN DIALOG 36, 24, 308, 202
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "Open File"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "File &Name:",1090,6,6,76,10
+    EDITTEXT        1152,6,16,110,12,ES_LOWERCASE | ES_AUTOHSCROLL | ES_OEMCONVERT
+    LISTBOX         1120,7,28,109,81,LBS_SORT | LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Directories:",-1,141,7,92,9
+    LTEXT           "",1088,141,17,158,9
+    LISTBOX         1121,141,29,92,81,LBS_SORT | LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "List Files of &Type:",1089,7,114,90,9
+    COMBOBOX        1136,6,127,110,67,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Dri&ves:",1091,141,114,92,9
+    COMBOBOX        1137,141,127,92,65,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,247,31,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,247,54,50,14,WS_GROUP
+    PUSHBUTTON      "&Help",1038,247,78,50,14,WS_GROUP
+    CONTROL         "&Read Only",1040,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,247,105,50,12
+    PUSHBUTTON      "D&ib Info ...",IDD_INFO,247,127,50,14,WS_GROUP
+END
+
+INFO DIALOG 130, 103, 157, 107
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Dib Information"
+FONT 8, "Helv"
+BEGIN
+    RTEXT           "Name:",-1,10,10,50,8
+    RTEXT           "Format:",-1,11,23,50,8
+    RTEXT           "Width:",-1,10,36,50,8
+    RTEXT           "Height:",-1,10,49,50,8
+    RTEXT           "Colors:",-1,10,62,50,8
+    RTEXT           "Compression:",IDD_COMPHEAD,10,75,50,8
+    LTEXT           "",IDD_NAME,68,10,85,8
+    LTEXT           "",IDD_FORMAT,68,23,85,8
+    LTEXT           "",IDD_WIDTH,68,36,85,8
+    LTEXT           "",IDD_HEIGHT,68,49,85,8
+    LTEXT           "",IDD_COLORS,68,62,85,8
+    LTEXT           "",IDD_COMPRESS,68,75,85,8
+    PUSHBUTTON      "OK",IDOK,56,90,40,14
+END
+
+INFOVIEW DIALOG 73, 103, 274, 107
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Dib Preview"
+FONT 8, "Helv"
+BEGIN
+    RTEXT           "Name:",-1,10,10,50,8
+    RTEXT           "Format:",-1,11,23,50,8
+    RTEXT           "Width:",-1,10,36,50,8
+    RTEXT           "Height:",-1,10,49,50,8
+    RTEXT           "Colors:",-1,10,62,50,8
+    RTEXT           "Compression:",IDD_COMPHEAD,10,75,50,8
+    LTEXT           "",IDD_NAME,68,10,85,8
+    LTEXT           "",IDD_FORMAT,68,23,85,8
+    LTEXT           "",IDD_WIDTH,68,36,85,8
+    LTEXT           "",IDD_HEIGHT,68,49,85,8
+    LTEXT           "",IDD_COLORS,68,62,85,8
+    LTEXT           "",IDD_COMPRESS,68,75,85,8
+    PUSHBUTTON      "OK",IDOK,56,90,40,14
+END
+
+PERCENTDLG DIALOG 158, 86, 167, 117
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Progress Information"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "",IDD_INFO,10,5,145,30,SS_SUNKEN
+    RTEXT           "Estimated:",IDM_FILE1,10,40,55,8
+    LTEXT           "0",IDM_FILE2,75,40,80,10,SS_SUNKEN
+    DEFPUSHBUTTON   "Attempt Abort",IDM_ABORT,10,55,145,14
+    LTEXT           "",IDM_FILE3,10,75,145,35
+    LTEXT           "",IDC_EDIT1,12,90,143,20
+END
+
+PRINTDLG DIALOG 20, 32, 196, 84
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "PRINTING"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Printing",IDC_PRTDOC,6,10,184,10,NOT WS_GROUP
+    CTEXT           "  0% Done",IDD_PRNPCT,6,25,184,10
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,51,57,92,22
+    EDITTEXT        IDC_PRTJOBS,6,39,184,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+FILESAVE DIALOG 36, 24, 264, 207
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Save As"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "File &Name:",1090,6,6,76,10
+    EDITTEXT        1152,6,16,90,12,ES_LOWERCASE | ES_AUTOHSCROLL | ES_OEMCONVERT
+    LISTBOX         1120,12,28,84,68,LBS_SORT | LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Directories:",-1,110,6,92,9
+    LTEXT           "",1088,110,16,92,9
+    LISTBOX         1121,110,28,92,68,LBS_SORT | LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "List Files of &Type:",1089,6,102,90,9
+    COMBOBOX        1136,6,112,90,68,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Dri&ves:",1091,110,102,92,9
+    COMBOBOX        1137,110,112,92,68,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,208,6,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,208,24,50,14,WS_GROUP
+    PUSHBUTTON      "&Help",1038,208,46,50,14,WS_GROUP
+    CONTROL         "&Read Only",1040,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,208,68,50,12
+    PUSHBUTTON      "F&ile Type...",IDD_FILETYPE,208,94,50,14
+    GROUPBOX        "&File Type:",IDD_FILETYPEGROUP,6,154,98,42,WS_GROUP
+    CONTROL         "R&GB",IDD_RGB,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,19,165,39,10
+    CONTROL         "R&LE4",IDD_RLE4,"Button",BS_AUTORADIOBUTTON,63,165,39,10
+    CONTROL         "RL&E8",IDD_RLE8,"Button",BS_AUTORADIOBUTTON,19,179,39,10
+    CONTROL         "&PM",IDD_PM,"Button",BS_AUTORADIOBUTTON,63,180,39,10
+    GROUPBOX        "&Bits Per Pixel:",IDD_BPP,122,154,86,42,WS_GROUP
+    CONTROL         "&1",IDD_1,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,138,165,24,10
+    CONTROL         "&4",IDD_4,"Button",BS_AUTORADIOBUTTON,173,165,24,10
+    CONTROL         "&8",IDD_8,"Button",BS_AUTORADIOBUTTON,138,180,24,10
+    CONTROL         "&24",IDD_24,"Button",BS_AUTORADIOBUTTON,173,180,24,10
+END
+
+OPTIONSSTRETCH DIALOGEX 69, 26, 313, 242
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Stretch Options for the Display and Printer"
+FONT 8, "Helv", 0, 0, 0x0
+BEGIN
+    LTEXT           "Current: %s",IDD_TITLELINE,5,8,298,8
+    GROUPBOX        "Display",GB_DISPLAY,22,20,126,114
+    CONTROL         "Use &DDB (Bitmap)",IDRB_USEDDBS,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,30,33,106,10
+    CONTROL         "Use D&IB (to Device)",IDRB_USEDIBS,"Button",BS_AUTORADIOBUTTON,30,45,106,10
+    CONTROL         "Use DI&B to DDB (memory)",IDRB_USESETDIBITS,"Button",BS_AUTORADIOBUTTON,30,57,106,10
+    CONTROL         "&Stretch to Window",IDRB_STRETCHWINDOW,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,30,72,110,12
+    CONTROL         "&Animate GIF (per timing below)",IDRB_ANIMATE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,30,100,110,12
+    LTEXT           "&Mil.Secs.for animation.",IDC_MLABEL,32,118,73,8
+    EDITTEXT        IDEF_MSECS,111,115,28,12
+    GROUPBOX        "Printer",GB_PRINTER,169,20,126,115
+    CONTROL         "&Best Fit",IDRB_BESTFIT,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,187,32,80,12
+    CONTROL         "Stretch to &Page",IDRB_STRETCH,"Button",BS_AUTORADIOBUTTON,187,44,80,12
+    CONTROL         "S&cale",IDRB_SCALE,"Button",BS_AUTORADIOBUTTON,187,56,44,12
+    LTEXT           "&X Axis",IDC_XLABEL,207,70,25,8
+    EDITTEXT        IDEF_XAXIS,235,68,26,12
+    LTEXT           "&Y Axis",IDC_YLABEL,207,86,25,8
+    EDITTEXT        IDEF_YAXIS,235,84,26,12
+    CONTROL         "Use Banding",IDRB_USEBANDING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,187,100,80,10
+    CONTROL         "Use 3.1 Print APIs",IDRB_USE31APIS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,187,110,80,10
+    LTEXT           "Aid:",IDC_STATIC,7,140,16,8
+    LTEXT           "",IDEF_HELP,28,140,266,10,NOT WS_GROUP
+    GROUPBOX        "Application of Settings",901,25,183,278,34
+    CONTROL         "Set Defaults per above.",IDD_DEFAULT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,34,193,122,10
+    CONTROL         "Apply to all current Windows.",IDD_RESTORE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,165,193,122,10
+    DEFPUSHBUTTON   "OK",IDD_OK,19,223,123,14
+    PUSHBUTTON      "Cancel",IDD_CANCEL,167,223,125,14
+    LTEXT           "",IDD_MESSAGE,28,157,267,18
+    CONTROL         "&Center DIB on Print page.",IDC_CHKCENTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,187,121,97,10
+    CONTROL         "Maintain Aspect Ratio",IDC_KEEPASPECT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,84,116,11
+END
+
+JPEGOPTIONS DIALOG 57, 22, 252, 262
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "JPEG Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Care should be taken in changing these JPEG parameters. If an",-1,5,4,238,8
+    LTEXT           "item is NOT understood it is better to use the DEFAULTS.",-1,5,15,228,8
+    GROUPBOX        "Compression - Write JPEG",-1,4,34,238,95
+    CONTROL         "Output JPEG Gray Scale Only.",IDO_CGRAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,46,186,10
+    CONTROL         "Use highest Huffman compression.",IDO_CHUFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,59,186,10
+    CONTROL         "Set JPEG quality. Default is 75. Enter percentage ->",IDO_CQUAL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,72,186,10
+    EDITTEXT        IDO_CQPERC,202,71,32,12,ES_AUTOHSCROLL
+    CONTROL         "Set restart interval in rows.                       Use ->",IDO_CREST,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,86,186,10
+    EDITTEXT        IDO_CRNUM,202,84,32,12,ES_AUTOHSCROLL
+    CONTROL         "Set restart interval in blocks.                    Use ->",IDO_CBBLK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,99,186,10
+    EDITTEXT        IDO_CBNUM,202,97,32,12,ES_AUTOHSCROLL
+    CONTROL         "Smooth dithered input (1-100)                   Use ->",IDO_CSMTH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,112,186,10
+    EDITTEXT        IDO_CSNUM,202,111,32,12,ES_AUTOHSCROLL
+    GROUPBOX        "Decompression - Read JPEG",-1,4,136,238,82
+    CONTROL         "Reduce image colors.                              Use ->",IDO_DRIC,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,147,182,10
+    EDITTEXT        IDO_DRNUM,202,146,32,12,ES_AUTOHSCROLL
+    CONTROL         "Apply cross block smoothing.",IDO_DCBS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,160,185,10
+    CONTROL         "Force Grayscale output.",IDO_DGRAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,174,186,10
+    CONTROL         "Do not use dithering in quantization.",IDO_DNODIT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,187,199,10
+    CONTROL         "Use 1-pass quantization. (Fast, low quality.)",IDO_D1PASS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,201,201,10
+    DEFPUSHBUTTON   "OK",IDD_OK,22,226,58,28
+    PUSHBUTTON      "Defaults",IDDEFAULT,94,226,58,28
+    PUSHBUTTON      "Cancel",IDD_CANCEL,166,226,58,28
+END
+
+GENOPTIONS DIALOG 66, 47, 247, 162
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "GENERAL OPTIONS"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Be Tidy. Remove intermediate files",IDO_GTIDY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,6,210,10
+    CONTROL         "Inhibit System Library Load message.",IDD_SYSMSG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,24,210,10
+    CONTROL         "After conversion reload file with possible changed BMP.",IDO_RELOAD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,36,210,10
+    CONTROL         "Set library ""Safety"" sizing ON.",IDO_SAFETY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,48,210,10
+    CONTROL         "Put data to conversion at :",IDD_ADDTIME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,60,103,10
+    EDITTEXT        IDD_BAUDCB,110,59,56,12,ES_AUTOHSCROLL
+    LTEXT           "Bits/Second",IDC_BPSLABEL,170,60,45,8
+    LTEXT           "Colors in create palette =",IDC_STATIC,6,72,100,8
+    EDITTEXT        IDD_COLORS,110,71,56,12,ES_AUTOHSCROLL
+    LTEXT           "Colors",IDC_STATIC,170,72,45,8
+    DEFPUSHBUTTON   "OK",IDD_OK,181,142,50,14
+    PUSHBUTTON      "Defaults",IDDEFAULT,71,142,50,14
+    PUSHBUTTON      "Cancel",IDD_CANCEL,16,142,50,14
+    CONTROL         "&Auto reload ALL in MRU",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,90,114,10
+    EDITTEXT        IDC_EDIT1,185,89,30,14,ES_AUTOHSCROLL
+    LTEXT           "Files",IDC_STATIC,217,94,15,8
+    LTEXT           "Next Paste Number:",IDC_STATIC,5,127,76,10
+    EDITTEXT        IDC_EDIT2,85,124,35,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "Restore",IDC_RESTORE,126,142,50,14
+    LTEXT           "Max. MRU Count",IDC_STATIC,125,91,56,8
+    CONTROL         "Auto &reload on startup those still loaded at last exit.",IDC_CHECK2,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,108,236,10
+END
+
+SRSEARCH DIALOG 8, 21, 199, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "SEARCH FOR FILES"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Enter the DRIVE, DIRECTORY and FILE MASK to",IDC_STATIC,12,10,172,8
+    LTEXT           "use for search (like C:\\CSERVE\\*.GIF) :",IDC_STATIC,12,20,172,8
+    EDITTEXT        IDM_SELECT,6,35,183,12,ES_AUTOHSCROLL
+    CONTROL         "Recursive into Subdirectories",IDD_AUTOWRAP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,53,112,10
+    PUSHBUTTON      "Browse...",IDM_FIND,142,51,40,14
+    GROUPBOX        "Information :",IDC_STATIC,6,71,183,79
+    LTEXT           "Take care! This powerful SEARCH can yield a very",IDC_STATIC,12,82,172,8
+    LTEXT           "large number of files if something like C:\\*.BMP",IDC_STATIC,12,92,172,8
+    LTEXT           "and Recursive is checked, and the resultant 100's",IDC_STATIC,12,102,172,8
+    LTEXT           "or 1000's of files can be greater than the program's",IDC_STATIC,12,112,172,8
+    LTEXT           "internal structures or indeed your PC memory can",IDC_STATIC,12,122,172,8
+    LTEXT           "reasonably handle, but give it a TRY!",IDC_STATIC,12,132,172,8
+    PUSHBUTTON      "Cancel",IDD_CANCEL,37,159,40,14
+    DEFPUSHBUTTON   "Ok",IDD_OK,111,159,40,14
+    COMBOBOX        IDC_COMBO1,6,30,183,119,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+SRSEARCH2 DIALOG 6, 18, 199, 204
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Search for All"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Total",IDD_COLCNT,11,2,173,8
+    LTEXT           "Files may be deleted by selecting and then [Delete]",2509,10,12,180,8
+    LISTBOX         IDD_MO_NAME,11,26,176,156,LBS_SORT | LBS_MULTIPLESEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Abort",IDD_CANCEL,5,186,40,14
+    PUSHBUTTON      "Delete",IDD_DELETE,104,186,40,14
+    PUSHBUTTON      "Restore All",IDD_RESTORE,55,186,40,14
+    DEFPUSHBUTTON   "Continue",IDD_OK,152,186,40,14
+END
+
+SRSEARCH3 DIALOG 1, 1, 362, 219
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "MANAGE FILES FOUND LIST"
+FONT 8, "Arial"
+BEGIN
+    LTEXT           "Total",IDD_COLCNT,7,3,342,8
+    CTEXT           "Files may be deleted by selecting and then [Delete Selected] or [Keep Selected].",IDC_STATIC,6,13,344,8
+    LISTBOX         IDD_MO_NAME,8,26,346,174,LBS_SORT | LBS_MULTIPLESEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Abort",IDD_CANCEL,7,202,40,14
+    PUSHBUTTON      "Restore All",IDD_RESTORE,75,203,71,14
+    PUSHBUTTON      "Delete Selected",IDD_DELETE,146,203,71,14
+    PUSHBUTTON      "Keep Selected",IDD_SELECTED,217,203,71,14
+    DEFPUSHBUTTON   "Load",IDD_OK,315,203,40,14
+END
+
+CHOOSEGIF DIALOG 113, 87, 204, 100
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "CHOOSE GIF IMAGE"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "File: [%s].",IDD_FNAME,4,4,196,24
+    LTEXT           "Contains %d images.",IDD_FSIZE,4,28,172,8
+    LTEXT           "Enter the image to be converted, then OK.",-1,4,39,170,8
+    LTEXT           "Click ALL, if all are to be converted.",-1,4,50,166,8
+    LTEXT           "Image Number :",-1,4,65,56,8
+    EDITTEXT        IDD_DEFAULT,62,63,32,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "All",IDD_FBAL,15,82,40,14
+    DEFPUSHBUTTON   "OK",IDD_OK,81,82,40,14
+    PUSHBUTTON      "None",IDD_CANCEL,146,82,40,14
+END
+
+CHOOSEGIF2 DIALOG 113, 87, 204, 125
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "CHOOSE GIF IMAGE"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "File: [%s].",IDD_FNAME,6,4,192,22
+    LTEXT           "Contains %d images.",IDD_FSIZE,6,30,95,8
+    LTEXT           "Image Number :",IDC_STATIC,105,30,56,8
+    EDITTEXT        IDD_DEFAULT,162,28,36,12,ES_AUTOHSCROLL
+    LTEXT           "Enter the image to be converted, then OK.",IDC_STATIC,6,41,170,8
+    LTEXT           "Click [All] to display each, OR [Animate] to sequence the Netscape images. Note animations consumes resources thus other window events will be slowed.",IDC_STATIC,6,59,192,31
+    PUSHBUTTON      "All",IDD_FBAL,9,106,40,14
+    PUSHBUTTON      "Animate",IDM_PALANIMATE,57,106,40,14
+    DEFPUSHBUTTON   "OK",IDD_OK,105,106,40,14
+    PUSHBUTTON      "None",IDD_CANCEL,153,106,40,14
+END
+
+IDD_DIALOG1 DIALOG 0, 0, 247, 166
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rotate Image"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,185,105,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,185,135,50,14
+    GROUPBOX        "Image Details",IDC_STATIC,5,5,235,65
+    LTEXT           "File Name      : %s",IDC_FILENAME,15,15,215,8
+    LTEXT           "Image Size    : %s",IDC_IMAGESIZE,15,26,215,8
+    LTEXT           "Window Size : %s",IDC_WINDSIZE,15,36,215,8
+    LTEXT           "Stretch is       : %s",IDC_STRETCH,15,45,215,8
+    LTEXT           "Bits per Pixel  : %s",IDC_BITSPERPIXEL,15,55,215,8
+    CONTROL         "&Return Image to normal",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,15,90,89,10
+    GROUPBOX        "Rotation",IDC_STATIC,5,80,165,80
+    CONTROL         "90 Degrees",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,15,105,53,10
+    CONTROL         "180 Degress",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,15,115,56,10
+    CONTROL         "270 Degrees",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,15,125,57,10
+    CONTROL         "Degress   =",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,15,140,55,10
+    EDITTEXT        IDC_EDIT1,75,140,40,14,ES_AUTOHSCROLL
+END
+
+IDD_FILEOPEN DIALOGEX 0, 0, 281, 176
+STYLE DS_SETFONT | DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDD_BITMAP,"Static",SS_WHITEFRAME | SS_SUNKEN | WS_BORDER,97,30,177,139,WS_EX_TRANSPARENT
+    LTEXT           "Name:",IDC_STATIC,7,6,25,8
+    EDITTEXT        IDD_NAME,7,15,267,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_FORMAT,7,50,76,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_WIDTH,7,65,76,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_HEIGHT,7,80,76,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_COLORS,7,95,76,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "Maintain Aspect",IDC_KEEPASPECT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,157,82,12
+END
+
+IDD_DIALOG3 DIALOG 0, 0, 271, 76
+STYLE DS_SETFONT | DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Show Preview and Infomation",IDD_PREVIEW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,5,110,10
+    LTEXT           "Name:",IDC_STATIC,5,20,25,8
+    LTEXT           "Format:",IDC_STATIC,6,53,25,8
+    LTEXT           "Width:",IDC_STATIC,6,38,25,8
+    LTEXT           "Height:",IDC_STATIC,136,38,25,8
+    LTEXT           "Colors:",IDC_STATIC,136,53,25,8
+    EDITTEXT        IDD_NAME,35,20,225,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_FORMAT,36,53,95,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_WIDTH,36,38,95,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_HEIGHT,166,38,95,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_COLORS,166,53,95,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_IMAGEATT DIALOG 0, 0, 357, 141
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "IMAGE ATTRIBUTES - Edit new size(s) and Apply [ok]"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,161,120,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,98,120,50,14
+    EDITTEXT        IDC_EDIT1,29,17,24,14,ES_AUTOHSCROLL
+    RTEXT           "W:",IDC_STATIC,14,19,10,8
+    RTEXT           "H: ",IDC_STATIC,61,20,10,8
+    EDITTEXT        IDC_EDIT2,79,17,24,14,ES_AUTOHSCROLL
+    RTEXT           "W:",IDC_STATIC,128,20,10,8
+    RTEXT           "H: ",IDC_STATIC,177,20,10,8
+    EDITTEXT        IDC_EDIT3,141,17,24,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT4,191,17,24,14,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "W:",IDC_STATIC,13,47,10,8
+    RTEXT           "H: ",IDC_STATIC,61,47,10,8
+    EDITTEXT        IDC_EDIT5,30,44,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,78,44,24,14,ES_AUTOHSCROLL
+    RTEXT           "x:",IDC_STATIC,129,47,8,8
+    EDITTEXT        IDC_EDIT7,141,44,24,14,ES_AUTOHSCROLL
+    RTEXT           "y:",IDC_STATIC,177,47,9,8
+    EDITTEXT        IDC_EDIT8,191,44,24,14,ES_AUTOHSCROLL
+    RTEXT           "cx:",IDC_STATIC,126,66,13,8
+    EDITTEXT        IDC_EDIT9,141,63,24,14,ES_AUTOHSCROLL
+    RTEXT           "cy:",IDC_STATIC,175,66,12,8
+    EDITTEXT        IDC_EDIT10,191,63,24,14,ES_AUTOHSCROLL
+    LTEXT           "Colors:",IDC_STATIC,7,77,22,12
+    RTEXT           "Maximum:",IDC_STATIC,26,66,35,8
+    EDITTEXT        IDC_EDIT11,31,77,36,12,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Count:",IDC_STATIC,75,66,25,8
+    EDITTEXT        IDC_EDIT12,77,77,36,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Bits per Pixel:",IDC_STATIC,7,120,47,8
+    EDITTEXT        IDC_EDIT13,57,121,25,13,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "MDI Client",IDC_STATIC,7,7,107,27
+    GROUPBOX        "DIB Size",IDC_STATIC,122,7,105,27
+    GROUPBOX        "Clip Region Size",IDC_STATIC,7,35,107,27
+    GROUPBOX        "Current Clip Rectangle",IDC_STATIC,122,35,106,51
+    EDITTEXT        IDC_EDIT14,26,98,324,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "File:",IDC_STATIC,7,98,14,8
+    CONTROL         "",IDC_FRAME,"Static",SS_GRAYFRAME,234,7,116,84
+END
+
+IDD_CHOOSEGIF2 DIALOG 0, 0, 237, 116
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CHOOSE GIF IMAGE"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDD_DEFAULT,68,70,32,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Separately",IDD_FBAL,20,90,45,20
+    PUSHBUTTON      "Combined",IDD_COMBINED,70,90,45,20
+    DEFPUSHBUTTON   "OK",IDD_OK,120,90,45,20
+    PUSHBUTTON      "None",IDD_CANCEL,170,90,45,20
+    LTEXT           "File: [%s].",IDD_FNAME,10,5,220,24
+    CTEXT           "Contains %d images.",IDD_FSIZE,10,29,220,11,SS_SUNKEN
+    LTEXT           "For ONE image, enter the image to be converted, then OK.",IDC_STATIC,10,45,220,8
+    LTEXT           "Click Separately or Combined for ALL Images to be converted.",IDC_STATIC,10,55,220,8
+    LTEXT           "Image Number :",IDC_STATIC,10,73,56,8
+END
+
+IDD_GETCOLORS DIALOG 0, 0, 237, 170
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GET COLOURS"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,55,150,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,150,50,14
+    RTEXT           "Background Colour:",IDC_STATIC,20,20,75,8
+    RTEXT           "Highlight Colour:",IDC_STATIC,20,40,75,8
+    RTEXT           "Shadow Colour:",IDC_STATIC,20,60,75,8
+    RTEXT           "Text Colour:",IDC_STATIC,20,81,75,8
+    LTEXT           "Red",IDC_STATIC,100,5,14,8
+    LTEXT           "Green",IDC_STATIC,120,5,20,8
+    LTEXT           "Blue",IDC_STATIC,145,5,15,8
+    EDITTEXT        IDC_EDIT1,100,15,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,120,15,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,140,15,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,100,35,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,120,35,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,140,35,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,100,55,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,120,55,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,140,55,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,100,75,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,120,75,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,140,75,20,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Select...",IDC_BUTTON1,165,15,50,14
+    PUSHBUTTON      "Select...",IDC_BUTTON2,165,35,50,14
+    PUSHBUTTON      "Select...",IDC_BUTTON3,165,55,50,14
+    PUSHBUTTON      "Select...",IDC_BUTTON4,165,75,50,14
+    CONTROL         "Update Global Colour Block.",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,100,105,10
+    LTEXT           "If this is checked, any changes in the Colour will be applied to any new image loaded.",IDC_STATIC,15,115,205,20
+END
+
+IDD_PROGRESS1 DIALOG 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PROGRESS"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,20,55,135,14
+END
+
+IDD_FINDLIB DIALOG 0, 0, 247, 101
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FIND LIBRARY"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,53,80,50,14
+    ICON            "MYICON",IDC_STATIC,10,10,21,20
+    EDITTEXT        IDC_EDIT1,10,55,165,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BUTTON1,185,55,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,143,80,50,14
+    EDITTEXT        IDC_EDIT2,45,8,190,42,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+END
+
+IDD_MRFDIALOG DIALOGEX 0, 0, 288, 165
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Most Recent File List"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,231,7,49,14
+    PUSHBUTTON      "Cancel",IDCANCEL,231,28,49,14
+    PUSHBUTTON      "Delete",IDC_MRFDELETE,231,49,49,14
+    LISTBOX         IDC_MRFLIST,7,19,210,120,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "To remove an entry, select and click delete.",IDC_STATIC,7,7,139,8
+    PUSHBUTTON      "Restore",IDC_MRFRESTORE,231,91,49,14
+    PUSHBUTTON      "Delete All",IDC_MRFDELALL,231,70,49,14
+    EDITTEXT        IDC_EDIT1,7,145,273,13,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Selected:",IDC_STATIC,231,133,49,8
+    PUSHBUTTON      "Browse...",IDC_MRFBROWSE,231,112,49,14
+END
+
+IDD_DVERROR DIALOG 0, 0, 211, 138
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DIBVIEW WARNING"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Yes",IDOK,22,117,50,14
+    PUSHBUTTON      "No",IDCANCEL,140,117,50,14
+    CONTROL         "Show this dialog on each start-up?",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,100,125,10
+    ICON            IDI_DV32,IDC_STATIC,7,7,20,20
+    EDITTEXT        IDC_EDIT1,36,7,168,83,ES_MULTILINE | ES_READONLY
+    PUSHBUTTON      "Browse...",IDC_BROWSE,140,98,50,14
+    PUSHBUTTON      "Retry",IDC_RETRY,81,117,50,14
+END
+
+IDD_DIALOG5 DIALOG 0, 0, 218, 146
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DUPLICATE WINDOW"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,83,125,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,125,50,14
+    RTEXT           "FileName:",IDC_STATIC,7,7,32,8,NOT WS_GROUP
+    EDITTEXT        IDC_EDIT1,43,7,168,14,ES_READONLY | NOT WS_TABSTOP
+    RTEXT           "Bitmap:",IDC_STATIC,7,23,32,8,NOT WS_GROUP
+    LTEXT           "W:",IDC_STATIC,41,23,10,8,NOT WS_GROUP
+    EDITTEXT        IDC_EDIT2,53,23,24,14,ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "H:",IDC_STATIC,79,23,10,8
+    EDITTEXT        IDC_EDIT3,91,23,24,14,ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "BPP:",IDC_STATIC,117,23,17,8,NOT WS_GROUP
+    EDITTEXT        IDC_EDIT4,137,23,24,14,ES_READONLY | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT5,187,23,24,14,ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Colors:",IDC_STATIC,163,23,22,8,NOT WS_GROUP
+    GROUPBOX        "Options",IDC_STATIC,15,55,186,52
+    CONTROL         "Same",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,23,66,74,10
+    CONTROL         "Monochrome",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,111,66,73,10
+    CONTROL         "16-Color Bitmap",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,23,78,74,10
+    CONTROL         "256-Color Bitmap",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,111,78,74,10
+    CONTROL         "24-bit Bitmap",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,23,90,74,10
+    EDITTEXT        IDC_EDIT6,42,42,115,12,ES_CENTER | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Selection:",IDC_STATIC,7,42,32,8,NOT WS_GROUP
+    EDITTEXT        IDC_EDIT7,187,39,24,14,ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Used:",IDC_STATIC,163,39,20,8
+    PUSHBUTTON      "Help",IDC_BUTTON1,16,125,50,14
+    CONTROL         "ALL GIF Images (or just current active) Count:",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,111,159,10
+    EDITTEXT        IDC_EDIT8,177,109,24,14,ES_READONLY | NOT WS_TABSTOP
+END
+
+IDD_INFODLG DIALOGEX 0, 0, 292, 25
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Static",IDC_INFOTEXT,4,3,284,18,SS_NOPREFIX | SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,WS_EX_NOPARENTNOTIFY
+END
+
+IDD_IDM_SAVEAS DIALOG 0, 0, 279, 178
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SAVE AS BITMAP TYPE"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,222,157,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,222,135,50,14
+    GROUPBOX        "&File Type:",IDD_FILETYPEGROUP,7,108,98,42,WS_GROUP
+    CONTROL         "R&GB",IDD_RGB,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,15,119,39,10
+    CONTROL         "R&LE4",IDD_RLE4,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,59,119,39,10
+    CONTROL         "RL&E8",IDD_RLE8,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,15,133,39,10
+    CONTROL         "&PM",IDD_PM,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,59,134,39,10
+    GROUPBOX        "&Bits Per Pixel:",IDD_BPP,122,108,86,42,WS_GROUP
+    CONTROL         "&1",IDD_1,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,137,118,24,10
+    CONTROL         "&4",IDD_4,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,173,118,24,10
+    CONTROL         "&8",IDD_8,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,137,133,24,10
+    CONTROL         "&24",IDD_24,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,173,133,24,10
+    LTEXT           "Special SAVE AS a particular TYPE of BITMAP. Enter the File Name and select from the Options below and an attempt will be made.",IDC_STATIC,7,7,265,18
+    EDITTEXT        IDC_EDIT1,7,44,265,14,ES_AUTOHSCROLL
+    LTEXT           "Output File Name:",IDC_STATIC,7,35,58,8
+    PUSHBUTTON      "Browse",IDC_BUTTON1,222,29,50,14
+    EDITTEXT        IDC_EDIT2,58,62,40,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Size: Width (x):",IDC_STATIC,7,64,48,8
+    LTEXT           "Height (y):",IDC_STATIC,106,64,33,8
+    EDITTEXT        IDC_EDIT3,142,62,40,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Colors:",IDC_STATIC,193,64,22,8
+    EDITTEXT        IDC_EDIT4,219,62,40,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Current File Name:",IDC_STATIC,11,80,59,8
+    EDITTEXT        IDC_EDIT5,7,89,265,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    CONTROL         "Open window if file write is sucessful?",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,161,134,10
+    PUSHBUTTON      "Restore",IDC_BUTTON2,222,113,50,14
+END
+
+IDD_OPENMRU DIALOGEX 0, 0, 391, 215
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "OPEN MOST RECENTLY USED"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Open",IDOK,334,174,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,334,194,50,14
+    RTEXT           "Selected:",IDC_STATIC,7,4,45,16,SS_SUNKEN | WS_BORDER | NOT WS_GROUP
+    LISTBOX         IDC_LIST1,7,28,194,140,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         "",IDC_PREVIEW,"Static",SS_GRAYFRAME | SS_SUNKEN | WS_BORDER,211,28,173,141,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT2,54,4,330,18,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    EDITTEXT        IDD_COLORS,217,193,100,15,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_HEIGHT,113,193,100,15,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDD_WIDTH,7,193,100,15,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_PRINT DIALOGEX 0, 0, 415, 303
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PRINT"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Print",IDOK,299,282,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,358,282,50,14
+    LTEXT           "Printers:",IDC_STATIC,9,11,29,8
+    COMBOBOX        IDC_CBPRINTERS,41,7,235,53,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Printer P&roperties...",IDC_BPROPERTIES,314,7,94,16,0,WS_EX_DLGMODALFRAME
+    LTEXT           "&Top:",IDC_LABTOP,230,52,54,8
+    EDITTEXT        IDC_EDTOP,285,50,34,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SBTOP,320,50,13,14,SBS_VERT
+    LTEXT           "&Left:",IDC_LABLEFT,230,71,54,8
+    EDITTEXT        IDC_EDLEFT,285,68,34,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SBLEFT,320,68,13,14,SBS_VERT
+    PUSHBUTTON      "Ce&nter",IDC_BCENTER,356,50,45,14
+    PUSHBUTTON      "&Zero",IDC_BZERO,356,69,45,14
+    LTEXT           "&Width:",IDC_LABWID,232,112,46,8
+    EDITTEXT        IDC_EDWID,281,108,34,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SBWID,315,108,13,14,SBS_VERT
+    EDITTEXT        IDC_EDPCWID,346,108,25,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SBWID2,371,108,13,14,SBS_VERT
+    LTEXT           "&Height:",IDC_LABHIT,232,132,46,8
+    EDITTEXT        IDC_EDHIT,281,128,34,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SBHIT,315,128,13,14,SBS_VERT
+    EDITTEXT        IDC_EDPCHIT,346,128,25,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SBHIT2,371,128,13,14,SBS_VERT
+    CONTROL         "Allow &Distortion",IDC_CHDIST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,219,160,64,10
+    CONTROL         "&Fit to Page",IDC_CHFIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,314,160,50,10
+    LTEXT           "Copies:",IDC_STATIC,335,206,34,8
+    EDITTEXT        IDC_EDCOPIES,370,203,25,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SBCOPIES,395,203,13,14,SBS_VERT
+    GROUPBOX        "Position",IDC_STATIC,224,37,184,55
+    CONTROL         "",IDC_FRMA4,"Static",SS_GRAYFRAME,7,40,202,256,WS_EX_DLGMODALFRAME
+    LTEXT           "Px",IDC_LUTOP,338,55,12,8
+    LTEXT           "Px",IDC_LULEFT,338,71,12,8
+    GROUPBOX        "Size",IDC_STATIC,224,97,184,54
+    LTEXT           "%",IDC_STATIC,389,110,12,8
+    LTEXT           "%",IDC_STATIC,389,131,11,8
+    LTEXT           "Px",IDC_LUWID,331,112,12,8
+    LTEXT           "Px",IDC_LUHIT,331,131,12,8
+    EDITTEXT        IDC_EDSELECTED,7,22,401,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDNOTE,223,217,185,59,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "&Add Dimension Text.",IDC_CHADDTEXT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,220,189,75,10
+    CONTROL         "Add &General Text.",IDC_CHADDTEXT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,314,189,73,10
+    PUSHBUTTON      "&Apply",IDC_BAPPLY,241,282,50,14
+    CONTROL         "Add &Border Text",IDC_CHADDTEXT3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,220,203,67,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "ABOUTDLG", DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 309
+    END
+
+    "PERCENTDLG", DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 155
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 110
+    END
+
+    "PRINTDLG", DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 190
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 79
+    END
+
+    "OPTIONSSTRETCH", DIALOG
+    BEGIN
+        RIGHTMARGIN, 312
+        BOTTOMMARGIN, 237
+    END
+
+    "GENOPTIONS", DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 241
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 156
+    END
+
+    SRSEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 189
+        VERTGUIDE, 12
+        BOTTOMMARGIN, 173
+    END
+
+    "CHOOSEGIF2", DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 198
+        BOTTOMMARGIN, 120
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "DvResS.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""DvVers.h""\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""dlgs.h""\r\n"
+    "#include ""dvres.h""\r\n"
+    "#include ""dvview.h""\r\n"
+    "#include ""dvopts.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 5,0,0,0
+ PRODUCTVERSION 5,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "Comments", "Mailto: reports@geoffair.info - Geoff R. McLane"
+            VALUE "CompanyName", "Informatique Rouge"
+            VALUE "FileDescription", "Dv32"
+            VALUE "FileVersion", "5.0.0.0"
+            VALUE "InternalName", "Dv32"
+            VALUE "LegalCopyright", "Copyright 1996-2008-2020++"
+            VALUE "OriginalFilename", "Dv32.exe"
+            VALUE "ProductName", "Informatique Rouge Dv32"
+            VALUE "ProductVersion", "5.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS
+BEGIN
+    "B",            IDM_SAVEAS,             VIRTKEY, CONTROL, NOINVERT
+    "C",            IDM_COPY,               VIRTKEY, CONTROL, NOINVERT
+    "O",            IDM_OPEN,               VIRTKEY, CONTROL, NOINVERT
+    "P",            IDM_PRINT,              VIRTKEY, CONTROL, NOINVERT
+    "S",            IDM_SAVE,               VIRTKEY, CONTROL, NOINVERT
+    "V",            IDM_PASTE,              VIRTKEY, CONTROL, NOINVERT
+    "X",            IDM_EXIT,               VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "RES\\Dv32_1.ico"
+
+IDI_ICON8               ICON                    "RES\\DvWjpg6.ico"
+
+IDI_ICON4               ICON                    "RES\\DvIcon1.ico"
+
+IDI_ICON5               ICON                    "RES\\DvIcon2.ico"
+
+IDI_ICON6               ICON                    "RES\\DvIcon3.Ico"
+
+IDI_ICON2               ICON                    "RES\\Dv32-2.ico"
+
+IDI_ICON3               ICON                    "RES\\Dv32-3.ico"
+
+IDI_ICON7               ICON                    "RES\\dv32.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+SELECTCUR               CURSOR                  "RES\\DvSel.cur"
+
+"DRAGCURSOR"            CURSOR                  "RES\\DvDrag.cur"
+
+IDC_CURSOR1             CURSOR                  "RES\\DVBWait0.cur"
+
+IDC_CURSOR2             CURSOR                  "RES\\DVBWait1.cur"
+
+IDC_CURSOR3             CURSOR                  "RES\\DVBWait2.cur"
+
+IDC_CURSOR4             CURSOR                  "RES\\DVBWait3.cur"
+
+IDC_CURSOR5             CURSOR                  "RES\\DVBWait4.cur"
+
+IDC_CURSOR6             CURSOR                  "RES\\DVBWait5.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_PROGNAME            "DibView"
+    IDS_WINBMP              "Windows Bitmap"
+    IDS_PMBMP               "PM Bitmap"
+    IDS_OPENDLG             "Open an Image File"
+    IDS_SAVEDLG             "Save an Image File"
+    IDS_FILEOPEN            "FILEOPEN"
+    IDS_FILESAVE            "FILESAVE"
+    IDS_RGB                 "RGB"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PM                  "PM"
+    IDS_RLE4                "RLE4"
+    IDS_RLE8                "RLE8"
+    IDS_PASTE               "Paste"
+    IDS_CAPTURE             "Capture%d"
+    IDS_MEMFAILED           "Error: Memory failure!"
+    IDS_HELP_NORMALWINDOW   "Use default bitmap dimensions"
+    IDS_HELP_STRETCHWINDOW  "Stretch bitmap to fill window"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELP_USEDIBS        "Display using Device Independent Bitmaps"
+    IDS_HELP_USEDDBS        "Display using Device Dependent Bitmaps"
+    IDS_HELP_USESETDIBITS   "Display using SetDIBits()"
+    IDS_HELP_BESTFIT        "Best proportional fit for print page"
+    IDS_HELP_STRETCH        "Stretch to fill entire page"
+    IDS_HELP_SCALE          "Scale X/Y stretching independently"
+    IDS_HELP_XAXIS          "X Scaling factor"
+    IDS_HELP_YAXIS          "Y Scaling factor"
+    IDS_HELP_NOBANDING      "Don't band DIB to printer"
+    IDS_HELP_USEBANDING     "Band DIB to printer"
+    IDS_HELP_NO31APIS       "Use 3.0 Escape sequences"
+    IDS_HELP_USE31APIS      "Use 3.1 Print APIs"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRN_NEXTBAND        "Error during NEXTBAND."
+    IDS_PRN_NOFNSTARTDOC    "Couldn't find StartDoc() in GDI."
+    IDS_PRN_NOFNSETABORTPROC "Couldn't find SetAbortProc() in GDI."
+    IDS_PRN_NOFNSTARTPAGE   "Couldn't find StartPage() in GDI."
+    IDS_PRN_NOFNENDPAGE     "Couldn't find EndPage() in GDI."
+    IDS_PRN_NOFNENDDOC      "Couldn't find EndDoc() in GDI."
+    IDS_HELP_NODEFAULT      "Don't update defaults"
+    IDS_HELP_SETDEFAULT     "Set DEFAULT for NEW Windows per above"
+    IDS_HELP_NOTAPPLY       "Don't apply to all Windows"
+    IDS_HELP_APPLYALL       "Apply above to ALL current Windows"
+    IDS_STRING3484          "Do NOT center DIB on print page."
+    IDS_STRING3485          "Centre DIB on PRINT page."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELP_NOANIM         "Cease GIF Animation"
+    IDS_HELP_ANIM           "Animate GIF Images"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELP_MSECS          "Millisecs between animations. (5 to 5000)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERRXYSCALE          "X/Y scaling must be integers!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PRN_NONE            "No error while printing."
+    IDS_PRN_NODIB           "No DIB passed to DIBPrint()."
+    IDS_PRN_NODC            "Couldn't get a printer DC."
+    IDS_PRN_CANTBAND        "Driver Bug!  NEXTBAND not implemented."
+    IDS_PRN_BANDINFO        "Error during BANDINFO."
+    IDS_PRN_SETDIBITSTODEV  "Error during SetDIBitsToDevice()."
+    IDS_PRN_STRETCHDIBITS   "Error during StretchDIBits()."
+    IDS_PRN_STARTDOC        "Error during STARTDOC."
+    IDS_PRN_SETABORTPROC    "Error during SETABORTPROC."
+    IDS_PRN_STARTPAGE       "Error during StartPage()."
+    IDS_PRN_NEWFRAME        "Error during NEWFRAME."
+    IDS_PRN_ENDDOC          "Error during ENDOC."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PAL_RGB             "RGB"
+    IDS_PAL_RESERVED        "PC_RESERVED"
+    IDS_PAL_EXPLICIT        "PCEXPLICIT"
+    IDS_PAL_ERROR           "Error"
+    IDS_PAL_NOCOLLAPSE      "PC_NOCOLLAPSE"
+    IDS_PAL_NOPAL           "No palette"
+    IDS_PAL_DISPRGB         "RGB(%3d,%3d,%3d) Entry %d of %d F=%s (%d)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING1067          "ERROR: Internal called failed!"
+    IDS_STRING1068          "WARNING: No active image to rotate!"
+    IDS_STRING1069          "ERROR: Internal. Unable to get hDibInfo!"
+    IDS_STRING1070          "ERROR: Internal. No DIB Handle!"
+    IDS_STRING1071          "Just another string resource"
+END
+
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
